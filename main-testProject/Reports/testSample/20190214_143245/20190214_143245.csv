@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testSample,Chrome 72.0.3626.109,,2019-02-14 14:33:05,2019-02-14 14:33:25,19.151s,PASSED
+,,,,,,
+Test Cases/Firtst Test Case,Chrome 72.0.3626.109,,2019-02-14 14:33:06,2019-02-14 14:33:24,18.430s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Chrome 72.0.3626.109,,2019-02-14 14:33:07,2019-02-14 14:33:17,10.187s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.109,,2019-02-14 14:33:17,2019-02-14 14:33:17,0.022s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Chrome 72.0.3626.109,,2019-02-14 14:33:17,2019-02-14 14:33:17,0.002s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.109,,2019-02-14 14:33:17,2019-02-14 14:33:17,0.256s,PASSED
+"selenium.open(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 72.0.3626.109,,2019-02-14 14:33:17,2019-02-14 14:33:19,2.168s,PASSED
+"selenium.click(""id=btn-make-appointment"")",Chrome 72.0.3626.109,,2019-02-14 14:33:19,2019-02-14 14:33:20,0.571s,PASSED
+"selenium.click(""id=txt-username"")",Chrome 72.0.3626.109,,2019-02-14 14:33:20,2019-02-14 14:33:20,0.180s,PASSED
+"selenium.type(""id=txt-username"", ""John Doe"")",Chrome 72.0.3626.109,,2019-02-14 14:33:20,2019-02-14 14:33:20,0.084s,PASSED
+"selenium.click(""id=txt-password"")",Chrome 72.0.3626.109,,2019-02-14 14:33:20,2019-02-14 14:33:20,0.214s,PASSED
+"selenium.type(""id=txt-password"", ""ThisIsNotAPassword"")",Chrome 72.0.3626.109,,2019-02-14 14:33:20,2019-02-14 14:33:21,0.124s,PASSED
+"selenium.click(""id=btn-login"")",Chrome 72.0.3626.109,,2019-02-14 14:33:21,2019-02-14 14:33:21,0.780s,PASSED
+"selenium.click(""id=combo_facility"")",Chrome 72.0.3626.109,,2019-02-14 14:33:21,2019-02-14 14:33:22,0.244s,PASSED
+"selenium.select(""id=combo_facility"", ""label=Hongkong CURA Healthcare Center"")",Chrome 72.0.3626.109,,2019-02-14 14:33:22,2019-02-14 14:33:22,0.479s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Facility'])[1]/following::label[1]"")",Chrome 72.0.3626.109,,2019-02-14 14:33:22,2019-02-14 14:33:22,0.378s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/following::label[2]"")",Chrome 72.0.3626.109,,2019-02-14 14:33:22,2019-02-14 14:33:23,0.166s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/following::label[1]"")",Chrome 72.0.3626.109,,2019-02-14 14:33:23,2019-02-14 14:33:23,0.083s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Visit Date (Required)'])[1]/following::span[1]"")",Chrome 72.0.3626.109,,2019-02-14 14:33:23,2019-02-14 14:33:23,0.143s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[13]"")",Chrome 72.0.3626.109,,2019-02-14 14:33:23,2019-02-14 14:33:23,0.130s,PASSED
+"selenium.click(""id=txt_comment"")",Chrome 72.0.3626.109,,2019-02-14 14:33:23,2019-02-14 14:33:23,0.149s,PASSED
+"selenium.click(""id=txt_comment"")",Chrome 72.0.3626.109,,2019-02-14 14:33:23,2019-02-14 14:33:23,0.107s,PASSED
+"selenium.click(""id=txt_comment"")",Chrome 72.0.3626.109,,2019-02-14 14:33:23,2019-02-14 14:33:23,0.091s,PASSED
+"selenium.type(""id=txt_comment"", ""This is a Comment"")",Chrome 72.0.3626.109,,2019-02-14 14:33:23,2019-02-14 14:33:24,0.225s,PASSED
+"selenium.click(""id=btn-book-appointment"")",Chrome 72.0.3626.109,,2019-02-14 14:33:24,2019-02-14 14:33:24,0.418s,PASSED
+"selenium.click(""link=Go to Homepage"")",Chrome 72.0.3626.109,,2019-02-14 14:33:24,2019-02-14 14:33:24,0.502s,PASSED
