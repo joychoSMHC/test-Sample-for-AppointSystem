@@ -13,3 +13,7 @@ https://www.katalon.com/
 
 
 ![Alt text](runtestsuite.png)
+
+## テストレポートの確認
+
+![Alt text](report.png)
