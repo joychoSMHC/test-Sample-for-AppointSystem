@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testSample" time="24" tests="1" failures="0" errors="0">
+   <testsuite name="testSample" tests="1" failures="0" errors="0" time="24" timestamp="2019-02-14 14:16:21" hostname="tyo_smhc - 192.168.0.44" id="Test Suites/testSample">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/tyo_smhc/Desktop/test-sample/test-Sample-for-AppointSystem/Reports/testSample/20190214_141607"/>
+         <property name="logFiles" value="/Users/tyo_smhc/Desktop/test-sample/test-Sample-for-AppointSystem/Reports/testSample/20190214_141607/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tyo_smhc - 192.168.0.44"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="192.168.0.44"/>
+         <property name="sessionId" value="decec873-cc31-284a-ab32-1e702a085ce3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Firtst Test Case" classname="Test Cases/Firtst Test Case" status="PASSED">
+         <system-out><![CDATA[2019-02-14 14:16:21 - [TEST_CASE][PASSED] - Test Cases/Firtst Test Case: Test Cases/Firtst Test Case
+
+2019-02-14 14:16:22 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-02-14 14:16:23 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-14 14:16:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-14 14:16:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-02-14 14:16:34 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-02-14 14:16:34 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-02-14 14:16:34 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-02-14 14:16:35 - [TEST_STEP][PASSED] - selenium.open("https://katalon-demo-cura.herokuapp.com/"): null
+
+2019-02-14 14:16:37 - [TEST_STEP][PASSED] - selenium.click("id=btn-make-appointment"): null
+
+2019-02-14 14:16:37 - [TEST_STEP][PASSED] - selenium.click("id=txt-username"): null
+
+2019-02-14 14:16:38 - [TEST_STEP][PASSED] - selenium.type("id=txt-username", "John Doe"): null
+
+2019-02-14 14:16:38 - [TEST_STEP][PASSED] - selenium.click("id=txt-password"): null
+
+2019-02-14 14:16:38 - [TEST_STEP][PASSED] - selenium.type("id=txt-password", "ThisIsNotAPassword"): null
+
+2019-02-14 14:16:38 - [TEST_STEP][PASSED] - selenium.click("id=btn-login"): null
+
+2019-02-14 14:16:40 - [TEST_STEP][PASSED] - selenium.click("id=combo_facility"): null
+
+2019-02-14 14:16:40 - [TEST_STEP][PASSED] - selenium.select("id=combo_facility", "label=Hongkong CURA Healthcare Center"): null
+
+2019-02-14 14:16:41 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Facility'])[1]/following::label[1]"): null
+
+2019-02-14 14:16:41 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/following::label[2]"): null
+
+2019-02-14 14:16:41 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/following::label[1]"): null
+
+2019-02-14 14:16:41 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Visit Date (Required)'])[1]/following::span[1]"): null
+
+2019-02-14 14:16:42 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[13]"): null
+
+2019-02-14 14:16:42 - [TEST_STEP][PASSED] - selenium.click("id=txt_comment"): null
+
+2019-02-14 14:16:42 - [TEST_STEP][PASSED] - selenium.click("id=txt_comment"): null
+
+2019-02-14 14:16:43 - [TEST_STEP][PASSED] - selenium.click("id=txt_comment"): null
+
+2019-02-14 14:16:43 - [TEST_STEP][PASSED] - selenium.type("id=txt_comment", "This is a Comment"): null
+
+2019-02-14 14:16:43 - [TEST_STEP][PASSED] - selenium.click("id=btn-book-appointment"): null
+
+2019-02-14 14:16:43 - [TEST_STEP][PASSED] - selenium.click("link=Go to Homepage"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-14 14:16:21 - [TEST_SUITE][PASSED] - testSample: Test Cases/Firtst Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
