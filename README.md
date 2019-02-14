@@ -5,7 +5,7 @@ katalonを利用したテストプロジェクト
 ## katalon studio をインストール
 https://www.katalon.com/
 ## ソースをインポート
-メニューから「File」->「Open Project」を選択
+メニューから「File」->「Open Project」を選択し、
 「test-Sample-for-AppointSystem/main-testProject」を開く
 
 ## サンプルテストを実行
